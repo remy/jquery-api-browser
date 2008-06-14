@@ -1,0 +1,207 @@
+BODY { padding: 0; font: 0.85em 'Helvetica Neue',Helvetica,Arial,sans-serif, "Trebuchet MS", verdana; }
+H1 { margin: 0 0 2px 0; }
+TEXTAREA { width: 80%;}
+FIELDSET { border: 1px solid #ccc; padding: 1em; margin: 0; }
+LEGEND { color: #ccc; font-size: 120%; }
+INPUT, TEXTAREA { font-family: Arial, verdana; font-size: 80%; padding: 2px; border: 1px solid #999; }
+LABEL { display: block; margin-top: 10px; } 
+IMG { margin: 5px; }
+
+body {
+    background-color: #212121;
+    margin: 0;
+}
+
+#container {
+    width: 600px;
+    margin: 15px auto;
+    background-color: #fff;
+    padding: 10px;
+}
+
+h1, 
+#alpha,
+#footer {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+}
+
+#footer {
+    width: 620px;
+    text-align: right;
+    font-size: 85%;
+    color: #BABABA;
+    padding: 0 10px 10px 10px;
+}
+
+#footer a {
+    color: #BABABA;
+}
+
+#alpha {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+#alpha li {
+    display: inline;
+    margin-right: 3px;
+}
+
+#alpha a {
+    margin-right: 5px;
+    color: #fff;
+}
+
+#query {
+    width: 250px;
+    vertical-align: top;
+}
+
+#loading {
+    padding: 5px;
+    float: right;
+    margin: 0;
+    color: #000;
+    background: #fff;
+}
+
+#docs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#docs li {
+    padding-bottom: 10px;
+}
+
+.detail {
+    display: none;
+}
+
+.paramType {
+    color: #999;
+}
+
+.paramName-dep {
+    border-bottom: 1px dashed #000;
+    cursor: help;
+}
+
+li .apiHeader {
+    background-color: #eee;
+    padding: 5px;
+    margin: 0!important;
+    cursor: pointer;
+}
+
+li.functionAPI ul,
+li.functionAPI ol {
+    margin-left: 0;
+}
+
+li .apiHeader,
+li .shortDesc,
+li .detail {
+    padding: 5px;
+}
+
+li .apiHeader .type {
+  float: right;
+  margin-right: 10px;
+  text-transform: lowercase;
+  color: #999;
+  opacity: 0.7;
+  -moz-opacity: 0.7;
+  filter:alpha(opacity=70);
+}
+
+li.line {
+    border-bottom: 1px solid #eee;
+}
+
+ul.nav {
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #666;
+    padding-bottom: 3px;
+}
+
+ul.nav li {
+    display: inline;
+}
+
+ul.nav li a {
+    font-size: 90%;
+    padding: 2px!important;
+    margin-left: 10px;
+    border: 1px solid #aaa;
+    background: #aaa;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.nav li a:focus {
+    outline: 0;
+}
+
+ul.nav li a:hover,
+ul.nav li a.selected {
+    background-color: #666;
+    border-color: #666;
+}
+
+div.examples,
+div.options,
+div.args {
+    display: none;
+    padding: 10px 0;
+}
+
+div.detail ol {
+    padding-left: 20px;
+}
+
+div.detail ol p {
+    margin: 0;
+}
+
+li {
+  clear: left;
+}
+
+.header {
+/*  float: left;*/
+  padding: 10px 0;
+}
+
+.header .paramName,
+.header .paramType {
+/*    float: left;*/
+/*    width: 125px;*/
+    margin-right: 10px;
+}
+
+.body {
+/*    padding: 10px 0;*/
+    clear: left;
+/*    margin-bottom: 1px;*/
+}
+
+pre {
+    padding: 5px;
+    background: #eee;
+    border: 1px dotted #aaa;
+}
+
+.no {
+    display: none!important;
+}
+
+iframe.example {
+  border: 1px dotted rgb(204, 204, 204); width: 100%; height: 125px;
+}
